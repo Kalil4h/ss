@@ -1,4 +1,2 @@
-from urllib.request import urlopen
-subscribe_url = 'trojan://98eb6c70-d56c-11ed-a1b3-1239d0255272@162.159.192.139:443?path=%2Fus-trojan.bonds.id%2Fhowdy&security=tls&alpn=h2,http/1.1&host=1.under7768.workers.dev&fp=chrome&type=ws&sni=1.under7768.workers.dev#usa'
-return_content = urlopen(subscribe_url).read()
-print(return_content)
+vless://e50a999a-9beb-40ea-8470-0c4258365e29@de-freevmess.privateip.net:443?type=ws&encryption=none&securit
+trojan://98eb6c70-d56c-11ed-a1b3-1239d0255272y=tls&path=%2fvless#vless-ws-tls
