@@ -1,1 +1,0 @@
-vless://e50a999a-9beb-40ea-8470-0c4258365e29@162.159.192.72:443?path=%2Fde-freevmess.privateip.net%2Fvless&security=tls&encryption=none&alpn=h2,http/1.1&host=1.under7768.workers.dev&fp=chrome&type=ws&sni=1.under7768.workers.dev#vless-ws-tls
