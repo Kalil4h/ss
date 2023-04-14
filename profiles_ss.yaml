@@ -37,13 +37,16 @@ experimental:
   interface-name: en0
 
 proxies:
-  - {name: 45.95.241.200, server: 45.95.241.200, port: 443, udp: true, type: trojan, password: 55a88f50-d642-11ed-9fba-1239d0255272, sni: 1.1&host=1.under7768.workers.dev&fp=chrome&type=ws&sni=1.under7768.workers.dev, skip-cert-verify: true}
+  - {name: 162.159.192.139, server: 162.159.192.139, port: 443, udp: true, type: trojan, password: 64977ea0-da75-11ed-9e96-1239d0255272, sni: , skip-cert-verify: true}
 
 proxy-groups:
   - name: sshkit-generator
-    type: select
+    type: load-balance
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    strategy: consistent-hashing
     proxies:
-      - 45.95.241.200
+      - 162.159.192.139
 
 rules:
  - MATCH,sshkit-generator
